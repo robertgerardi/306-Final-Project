@@ -9,7 +9,7 @@ o	Soldered a backlit display that was used as a GUI for the user. Information su
 o	Engineered the vehicles software using C and the MSP-430’s IAR IDE. Interrupt service routines, pulse width modulation, data transfer mechanisms, and power control technics were used to perform maximum efficiency.
 o	Controlled the vehicles movement and initiated its autonomous line following in an obstacle course that was aimed to tests the cars capabilities
 
-Code Descriptions
+File Descriptions
 
 Main.c - Once all the hardware is set up and working, the next step is to make sure the software is configured and running correctly. When the program starts, it is initially in main. The code in main is where important functions used for initialization are called, including functions used for initializing ports, clocks, timers, conditions, the LCD display, and the ADC. One of the timers, Timer B3, is responsible for controlling the wheels. Once all the essential functions are called, the program goes into a while loop used for code execution. The main code is running functions that include processing commands, black line navigation, and displaying the time to the screen.
 
